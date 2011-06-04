@@ -277,7 +277,7 @@ h4 {
   /* ABOUT */
   
   #main .boxed {
-    background: rgba(229, 229, 229, 0.5);
+    background: rgba(229, 229, 229, 0.7);
     width: 480px; 
     margin: 0 auto 80px auto;
     padding: 20px 0 40px 0;
@@ -296,6 +296,7 @@ h4 {
   #main .boxed h3 {
     color: #696969;
     margin-bottom: 20px;
+    font-size: 26px;
     text-align: center; 
     text-shadow: none; }
     
@@ -303,10 +304,11 @@ h4 {
     border-bottom: 1px solid #ccc;
     color: #696969;
     font-family: CapsuulaRegular, sans-serif; 
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     margin: 20px auto 30px auto;
     padding-bottom: 30px;
+    text-transform: uppercase;
     width: 420px; }
     
     #main #about h2 { background: url(/images/heading-about-bg.png) center no-repeat; }
