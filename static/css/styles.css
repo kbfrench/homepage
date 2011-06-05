@@ -112,11 +112,11 @@ h4 {
       text-transform: uppercase; }
     
     #main #header #nav {
-      padding-top: 33px;
-      font-family: CapsuulaRegular, sans-serif;
-      font-size: 20px; }
+      padding-top: 33px; }
       
     #main #header #nav li {
+      font-family: CapsuulaRegular, sans-serif;
+      font-size: 20px;
       float: left; }
       
     #main #header #nav li.ios {
@@ -242,6 +242,49 @@ h4 {
   #main #work ul li img { margin-bottom: 10px; }
     
   #main #work ul li.first { margin-left: 0; }
+  
+  /* WORK PIECES */
+  
+  #main .work {
+    background: rgba(229, 229, 229, 0.7);
+    width: 870px; 
+    margin: 0 auto 20px auto;
+    padding: 25px 35px 25px 35px;
+    -webkit-box-shadow: 2px 2px 3px #828282; }
+    
+    #main .work h2 {
+      font-size: 26px; 
+      margin-bottom: 15px; }
+      
+    #main .work h3 {
+      color: #999;
+      font-family: HattoriHanzoLightItalic, sans-serif;
+      font-size: 16px; 
+      margin-bottom: 12px;
+      text-shadow: none; }
+      
+    #main .work p {
+      color: #666;
+      font-family: HattoriHanzoLight, sans-serif;
+      font-size: 14px;
+      line-height: 18px; }
+      
+    #main .work img {
+      display: block;
+      margin-bottom: 20px; }
+      
+    #main #back-to-work {
+      margin: 20px auto 50px auto;
+      width: 940px; }
+      
+    #main #back-to-work a {
+      background: #fff;
+      font-family: CapsuulaRegular, sans-serif;
+      font-size: 20px;
+      padding: 2px 4px 1px 4px;
+      text-transform: uppercase; 
+      -webkit-border-radius: 3px;
+      -webkit-box-shadow: 0 2px 0 #aeaeae; }
   
   /* CURRENT */
   
