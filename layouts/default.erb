@@ -17,9 +17,9 @@
             <li class='ios'><a href='/work#ios'>iOS</a></li>
             <li class='web'><a href='/work#web'>WEB</a></li>
             <li class='print'><a href='/work#print'>PRINT</a></li>
-            <li class='about'><a href='/about'>ABOUT</a></li>
-            <li class='current'><a href='/current'>CURRENT</a></li>
-            <li class='contact'><a href='/contact'>CONTACT</a></li>
+            <li class='about <%= active_if(/^\/about$/) %>'><a href='/about'>ABOUT</a></li>
+            <li class='current <%= active_if(/^\/current$/) %>'><a href='/current'>CURRENT</a></li>
+            <li class='contact <%= active_if(/^\/contact$/) %>'><a href='/contact'>CONTACT</a></li>
           </ul>
         </div>
       </div>
