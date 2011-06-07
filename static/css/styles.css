@@ -111,6 +111,8 @@ h4 {
       margin-left: -53px; 
       text-transform: uppercase; }
     
+    #main #header #logo span { letter-spacing: 2px; }
+    
     #main #header #nav {
       padding-top: 33px; }
       
@@ -142,12 +144,20 @@ h4 {
       
     #main #header #nav li.active a {
       background: #fff;
+      border-radius: 3px !important;
+      -moz-border-radius: 3px !important;
       -webkit-border-radius: 3px !important;
+      box-shadow: 0 -2px 0 #aeaeae !important;
+      -moz-border-radius: 0 -2px 0 #aeaeae !important;
       -webkit-box-shadow: 0 -2px 0 #aeaeae !important; }
       
     #main #header #nav li a:hover {
       background: #fff;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
+      box-shadow: 0 2px 0 #aeaeae;
+      -moz-box-shadow: 0 2px 0 #aeaeae;
       -webkit-box-shadow: 0 2px 0 #aeaeae; }
   
   /* HERO */
@@ -169,8 +179,12 @@ h4 {
     top: 50px;
     background: #fff;
     color: #777;
-    padding: 6px 10px 6px 10px; 
+    padding: 6px 10px 6px 10px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+    box-shadow: 0 2px 0 #aeaeae;
+    -moz-box-shadow: 0 2px 0 #aeaeae;
     -webkit-box-shadow: 0 2px 0 #aeaeae; }
     
   #main #hero #bubbles li .point {
@@ -180,12 +194,12 @@ h4 {
     background: url(/images/hero-bubble-point.png) no-repeat;
     height:16px; width: 21px; }
     
-  #main #hero #bubbles li.ios { left: 227px; }
-  #main #hero #bubbles li.web { left: 424px; }
-  #main #hero #bubbles li.print { left: 640px; }
+  #main #hero #bubbles li.ios { left: 236px; }
+  #main #hero #bubbles li.web { left: 433px; }
+  #main #hero #bubbles li.print { left: 649px; }
     
   #main #hero #icons {
-    width: 558px;
+    width: 543px;
     margin: 90px auto 64px auto; }
     
   #main #hero #icons li a {
@@ -233,12 +247,19 @@ h4 {
     margin: 10px 0 10px 20px;
     padding: 10px; 
     height: 125px; width: 280px; 
+    border-radius: 2px;
+    -moz-border-radius: 2px;
     -webkit-border-radius: 2px; 
+    box-shadow: 2px 2px 3px #828282;
+    -moz-box-shadow: 2px 2px 3px #828282;
     -webkit-box-shadow: 2px 2px 3px #828282; }
   
   #main #work ul li a { display: block; }
     
-  #main #work ul li img { margin-bottom: 10px; }
+  #main #work ul li a img { 
+    margin-bottom: 10px; 
+    opacity: 0.9; }
+  #main #work ul li a:hover img { opacity: 1.0; }
     
   #main #work ul li.first { margin-left: 0; }
   
@@ -249,6 +270,8 @@ h4 {
     width: 940px; 
     margin: 0 auto 20px auto;
     padding: 25px 0;
+    box-shadow: 2px 2px 3px #828282;
+    -moz-box-shadow: 2px 2px 3px #828282;
     -webkit-box-shadow: 2px 2px 3px #828282; }
     
     #main .work h2 {
@@ -269,7 +292,7 @@ h4 {
       line-height: 18px; 
       margin: 0 35px 20px 35px; }
       
-    #main .work img {
+    #main .work a img {
       display: block;
       margin: 15px auto; }
       
@@ -282,8 +305,12 @@ h4 {
       font-family: CapsuulaRegular, sans-serif;
       font-size: 20px;
       padding: 2px 4px 1px 4px;
-      text-transform: uppercase; 
+      text-transform: uppercase;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
+      box-shadow: 0 2px 0 #aeaeae; 
+      -moz-box-shadow: 0 2px 0 #aeaeae; 
       -webkit-box-shadow: 0 2px 0 #aeaeae; }
   
   /* CURRENT */
@@ -306,14 +333,22 @@ h4 {
     float: left;
     margin: 31px 0 31px 62;
     padding: 10px; 
-    height: 171px; width: 198px; 
+    height: 171px; width: 198px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
     -webkit-border-radius: 2px; 
+    box-shadow: 2px 2px 3px #828282;
+    -moz-box-shadow: 2px 2px 3px #828282; 
     -webkit-box-shadow: 2px 2px 3px #828282; }
   
 
   #main #current ul li a { display: block; }
 
-  #main #current ul li img { margin-bottom: 10px; }
+  #main #current ul li a img {
+    margin-bottom: 10px; 
+    opacity: 0.9; }
+    
+  #main #current ul li a:hover img { opacity: 1.0; }
 
   #main #current ul li.first { margin-left: 0; }
       
@@ -324,7 +359,9 @@ h4 {
     width: 480px; 
     margin: 0 auto 80px auto;
     padding: 20px 0 40px 0;
-    -webkit-box-shadow: 2px 2px 3px #828282; }
+    box-shadow: 0 0 5px 3px #aaa;
+    -moz-box-shadow: 0 0 5px 3px #aaa;
+    -webkit-box-shadow: 0 0 5px 3px #aaa; }
   
   #main .boxed h2 {
     color: #777;
@@ -348,13 +385,14 @@ h4 {
     color: #696969;
     font-family: CapsuulaRegular, sans-serif; 
     font-size: 18px;
-    line-height: 22px;
+    line-height: 23px;
     margin: 20px auto 30px auto;
     padding-bottom: 30px;
     text-transform: uppercase;
     width: 420px; }
     
     #main #about h2 { background: url(/images/heading-about-bg.png) center no-repeat; }
+    #main #about h3 { font-size: 22px; }
   
     #main #about #hire-me {
       position: relative;
@@ -364,16 +402,13 @@ h4 {
     #main #about #hire-me a {
       display: block;
       position: absolute;
-      bottom: 6px; right: -9px;
+      bottom: 6px; right: -13px;
       height: 57px; width: 156px;
       background: url(/images/hire-me-ribbon.png) no-repeat;
-      text-indent: -99999px; 
-      opacity: 0.8; }
-      
-    #main #about #hire-me a:hover { opacity: 1; }
-      
+      text-indent: -99999px; }
+            
     #main #social {
-      height: 39px; width: 224px;
+      height: 39px; width: 186px;
       margin: 0 auto; }
       
     #main #social li {
@@ -385,8 +420,9 @@ h4 {
       display: block; 
       height: 39px; width: 39px;  }
     
-    #main #social li.dribble a { background: url(/images/social-icons.png) no-repeat; }
-    #main #social li.dribble a:hover { background: url(/images/social-icons.png) 0 -39px no-repeat;  }
+    #main #social li.dribbble { margin-left: 0; }
+    #main #social li.dribbble a { background: url(/images/social-icons.png) no-repeat; }
+    #main #social li.dribbble a:hover { background: url(/images/social-icons.png) 0 -39px no-repeat;  }
     
     #main #social li.facebook a { background: url(/images/social-icons.png) -39px 0 no-repeat; }
     #main #social li.facebook a:hover { background: url(/images/social-icons.png) -39px -39px no-repeat;  }
@@ -426,6 +462,8 @@ h4 {
       outline: none;
       padding: 8px;
       width: 424px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
       -webkit-border-radius: 3px; }
       
     #main #contact textarea { height: 140px; }
@@ -439,14 +477,21 @@ h4 {
       text-align: center;
       text-transform: uppercase;
       width: 424px;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
       -webkit-border-radius: 3px;
+      box-shadow: 0 2px 0 #999;
+      -moz-box-shadow: 0 2px 0 #999;
       -webkit-box-shadow: 0 2px 0 #999; }
       
     #main #contact button:hover {
       color: #333; 
       cursor: pointer; }
       
-    #main #contact button:active { -webkit-box-shadow: 0 -2px 0 #999; }
+    #main #contact button:active { 
+      box-shadow: 0 -2px 0 #999;
+      -moz-box-shadow: 0 -2px 0 #999;
+      -webkit-box-shadow: 0 -2px 0 #999; }
   
   /* FOOTER */
     
@@ -469,6 +514,7 @@ h4 {
   #main #footer .nav li.first { margin-left: 0; }
   
   #main #footer .nav li a { color: #fff; }
+  #main #footer .nav li a:hover { color: #ddd; }
   
   #main #footer #copyright {
     position: absolute;

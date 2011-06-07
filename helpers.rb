@@ -1,5 +1,6 @@
 module FrankHelpers
   def active_if(regex)
-    @request.path =~ regex ? 'active' : ''
+    # current_path =~ regex ? 'active' : ''
+    ''
   end
 end
